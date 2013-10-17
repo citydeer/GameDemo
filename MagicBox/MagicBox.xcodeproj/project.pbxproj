@@ -283,6 +283,7 @@
 		546A485B18093E0400518B12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 546A485A18093E0400518B12 /* Default-568h@2x.png */; };
 		546A485E180941F300518B12 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546A485C180941F300518B12 /* GameScene.cpp */; };
 		546A4862180950B000518B12 /* StartScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 546A4860180950B000518B12 /* StartScene.cpp */; };
+		54F323F3180FBBAB0055B18D /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54F323F1180FBBAB0055B18D /* VisibleRect.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -881,6 +882,8 @@
 		546A485D180941F300518B12 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
 		546A4860180950B000518B12 /* StartScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartScene.cpp; path = Classes/StartScene.cpp; sourceTree = "<group>"; };
 		546A4861180950B000518B12 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartScene.h; path = Classes/StartScene.h; sourceTree = "<group>"; };
+		54F323F1180FBBAB0055B18D /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VisibleRect.cpp; path = Classes/VisibleRect.cpp; sourceTree = "<group>"; };
+		54F323F2180FBBAB0055B18D /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisibleRect.h; path = Classes/VisibleRect.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2110,6 +2113,8 @@
 				546A4860180950B000518B12 /* StartScene.cpp */,
 				546A485D180941F300518B12 /* GameScene.h */,
 				546A485C180941F300518B12 /* GameScene.cpp */,
+				54F323F2180FBBAB0055B18D /* VisibleRect.h */,
+				54F323F1180FBBAB0055B18D /* VisibleRect.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2424,6 +2429,7 @@
 				546A44E918093DA600518B12 /* CCActionCatmullRom.cpp in Sources */,
 				546A478518093DAB00518B12 /* CCScrollView.cpp in Sources */,
 				546A466618093DA900518B12 /* CCPointExtension.cpp in Sources */,
+				54F323F3180FBBAB0055B18D /* VisibleRect.cpp in Sources */,
 				546A473218093DAA00518B12 /* CCScale9SpriteLoader.cpp in Sources */,
 				546A466F18093DA900518B12 /* ccUtils.cpp in Sources */,
 				546A477218093DAA00518B12 /* CCEditBox.cpp in Sources */,
@@ -2582,6 +2588,7 @@
 				546A485918093DAC00518B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

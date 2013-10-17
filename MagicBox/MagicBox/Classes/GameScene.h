@@ -11,41 +11,36 @@
 
 #include "cocos2d.h"
 
+USING_NS_CC;
 
-class GameScene : public cocos2d::CCLayer
+class GameScene : public CCLayer
 {
 public:
-	static cocos2d::CCScene* scene();
+	static CCScene* scene();
 	
 	virtual ~GameScene();
 	
-	virtual bool init();
-	
 	CREATE_FUNC(GameScene);
+	
+	virtual void onEnter();
 	
 	void startGame();
 	void gameOver();
 	
+	virtual void draw();
+	
 protected:
-	void shakerMoveEnded(CCNode* pNode);
-	void ccTouchesBegan(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEvent);
+	void ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent);
 	
 private:
-	cocos2d::CCSprite* m_pShaker;
-	
-	cocos2d::CCSprite* m_pShadow;
-	
-	int m_iScore;
 	int m_iStatus;
-	int m_iHits;
-	bool m_bHitInPreviousCircle;
 	
-	float m_fOffset;
+	CCRect m_sMoveRect;
 };
 
 
 
-class GameOverScene : public cocos2d::CCLayer
+class GameOverScene : public CCLayer
 {
 public:
 	virtual bool init();
