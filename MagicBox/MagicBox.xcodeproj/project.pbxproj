@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541B85921811252600922AF1 /* BlockNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541B85901811252600922AF1 /* BlockNode.cpp */; };
 		546A44AE18093DA500518B12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546A44AD18093DA500518B12 /* QuartzCore.framework */; };
 		546A44B018093DA500518B12 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546A44AF18093DA500518B12 /* OpenGLES.framework */; };
 		546A44B218093DA500518B12 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546A44B118093DA500518B12 /* OpenAL.framework */; };
@@ -287,6 +288,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		541B85901811252600922AF1 /* BlockNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlockNode.cpp; path = Classes/BlockNode.cpp; sourceTree = "<group>"; };
+		541B85911811252600922AF1 /* BlockNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockNode.h; path = Classes/BlockNode.h; sourceTree = "<group>"; };
 		546A44AA18093DA500518B12 /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546A44AD18093DA500518B12 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		546A44AF18093DA500518B12 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -2115,6 +2118,8 @@
 				546A485C180941F300518B12 /* GameScene.cpp */,
 				54F323F2180FBBAB0055B18D /* VisibleRect.h */,
 				54F323F1180FBBAB0055B18D /* VisibleRect.cpp */,
+				541B85911811252600922AF1 /* BlockNode.h */,
+				541B85901811252600922AF1 /* BlockNode.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2309,6 +2314,7 @@
 				546A44F218093DA600518B12 /* CCActionGrid3D.cpp in Sources */,
 				546A472518093DAA00518B12 /* CCNode+CCBRelativePositioning.cpp in Sources */,
 				546A469D18093DA900518B12 /* CCIMEDispatcher.cpp in Sources */,
+				541B85921811252600922AF1 /* BlockNode.cpp in Sources */,
 				546A454618093DA600518B12 /* cocos2d.cpp in Sources */,
 				546A454918093DA600518B12 /* CCDrawingPrimitives.cpp in Sources */,
 				546A458918093DA700518B12 /* vec2.c in Sources */,

@@ -10,6 +10,7 @@
 #include "StartScene.h"
 #include "SimpleAudioEngine.h"
 #include "VisibleRect.h"
+#include "BlockNode.h"
 
 
 #define BlockWidth 30.0f
@@ -37,10 +38,18 @@ void GameScene::onEnter()
 	
 	m_iStatus = 0;
 	
-	this->setTouchEnabled(true);
+	setTouchEnabled(true);
 	m_sMoveRect = CCRectMake(CDVLeft+LeftMargin, CDVBottom+BottomMargin, CDVWidth-LeftMargin*2, CDVHeight-BottomMargin);
 	
-	this->startGame();
+	startGame();
+	
+	BlockNode* bn = BlockNode::create();
+	bn->setPosition(m_sMoveRect.origin);
+	addChild(bn);
+	
+	bn = BlockNode::create();
+	bn->setPosition(100,200);
+	addChild(bn);
 }
 
 void GameScene::draw()
